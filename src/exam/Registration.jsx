@@ -51,7 +51,7 @@ export default function Registration()
   return (
     <div style={{marginLeft:"600px"}}>
      <h2>Registration</h2>
-     <form onSubmit={handleSubmit}>
+     <form onSubmit={handleSubmit} >
       <div>
       Enter Name
       <input 
@@ -164,7 +164,6 @@ export default function Registration()
           <div>
             <button type='submit' style={{backgroundColor:"springgreen", marginLeft:"100px"}}>Register</button>
           </div>
-      
      </form>
     </div>
   )

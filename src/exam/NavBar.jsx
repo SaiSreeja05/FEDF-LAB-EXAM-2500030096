@@ -4,7 +4,6 @@ import Home from './Home'
 import Registration from './Registration'
 import RegisteredFarmers from './RegisteredFarmers'
 import ApiDemo from './ApiDemo'
-import NotFound from './NotFound'
 
 export default function NavBar() {
   return (
@@ -17,8 +16,8 @@ export default function NavBar() {
           <Route path='/' element={<Home/>}/>
           <Route path='/registration' element={<Registration/>}/>
           <Route path='/registeredfarmers' element={<RegisteredFarmers/>}/>
-          <Route path='apidemo' element={<ApiDemo/>}/>
-          <Route path="*" element={<NotFound/>}/>
+          <Route path='/apidemo' element={<ApiDemo/>}/>
+          <Route path='*' element={<h2>Page Not Found</h2>} />
         </Routes>
     </div>
   )
