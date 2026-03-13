@@ -119,7 +119,7 @@ export default function Registration()
             <input
               type="number"
               name="landArea"
-              value={formdata.noOfacres}
+              value={formdata.landArea}
               onChange={handleChange}
               required
             />
