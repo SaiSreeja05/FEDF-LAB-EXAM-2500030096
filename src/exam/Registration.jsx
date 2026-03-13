@@ -81,7 +81,6 @@ export default function Registration()
             Email
             <input
               type="email"
-              id="email"
               name="email"
               value={formdata.email}
               onChange={handleChange}
